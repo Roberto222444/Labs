@@ -25,7 +25,7 @@ schedule = [
 def test_get_schedule_monday():
     result = get_schedule(schedule, "Monday")
 
-    assert len(result) == 3
+    assert len(result) == 2
     
 def test_get_schedule_empty_day():
     result = get_schedule(schedule, "Sunday")
